@@ -18,6 +18,7 @@
 		F328BF3C200ED279009448F1 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328BF3B200ED279009448F1 /* ItemStore.swift */; };
 		F328BF3E200FBEBA009448F1 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328BF3D200FBEBA009448F1 /* ItemCell.swift */; };
 		F328BF40200FDA7B009448F1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328BF3F200FDA7B009448F1 /* DetailViewController.swift */; };
+		F328BF42201022CA009448F1 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F328BF41201022CA009448F1 /* ImageStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		F328BF3B200ED279009448F1 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 		F328BF3D200FBEBA009448F1 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		F328BF3F200FDA7B009448F1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F328BF41201022CA009448F1 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		F328BEFD200ECFCA009448F1 = {
 			isa = PBXGroup;
 			children = (
+				F328BF41201022CA009448F1 /* ImageStore.swift */,
 				F328BF3F200FDA7B009448F1 /* DetailViewController.swift */,
 				F328BF3D200FBEBA009448F1 /* ItemCell.swift */,
 				F328BF39200ED094009448F1 /* Item.swift */,
@@ -276,6 +279,7 @@
 				F328BF3C200ED279009448F1 /* ItemStore.swift in Sources */,
 				F328BF40200FDA7B009448F1 /* DetailViewController.swift in Sources */,
 				F328BF0A200ECFCA009448F1 /* AppDelegate.swift in Sources */,
+				F328BF42201022CA009448F1 /* ImageStore.swift in Sources */,
 				F328BF3E200FBEBA009448F1 /* ItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

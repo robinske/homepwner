@@ -2,6 +2,7 @@ import UIKit
 
 class ItemsViewController: UITableViewController {
     var itemStore: ItemStore!
+    var imageStore: ImageStore!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +19,7 @@ class ItemsViewController: UITableViewController {
                 let detailViewController = segue.destination as! DetailViewController
                 
                 detailViewController.item = item
+                detailViewController.imageStore = imageStore
             }
         default:
             preconditionFailure("Unexpected segue identifier.")
@@ -66,6 +68,7 @@ class ItemsViewController: UITableViewController {
         if editingStyle == .delete {
             let item = itemStore.allItems[indexPath.row]
             itemStore.removeItem(item)
+            imageStore.deleteImage(forKey: item.itemKey)
             
             tableView.deleteRows(at: [indexPath], with: .automatic)
         }
